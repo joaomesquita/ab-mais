@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span, a, .btn, .nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #393939;
+}
+
+.session {padding: 80px 0;}
+
+.form-control {
+    padding: 15px 15px;
+    font-size: 15px;
+}
+
+a:hover, 
+.btn:hover, 
+.nav-item:hover {transition: 0.2s;}
+
+a.nav-link.color-secondary-100:hover {color: #BFA37D !important;}
+
+a.active {color: #BFA37D !important;}
+
+a.color-secondary-200:hover {color: #F1ECE7 !important;}
+
+li.nav-item.bg-secondary-200:hover {
+    background-color: #F1ECE7 !important;
+}
+
+.btn.bg-secondary-200:hover, .btn.border-color-secondary-100:hover {background-color: #a58e6d;}
+.btn.bg-green:hover {background-color: #03b65f;}
+.btn.border-color-secondary:hover {background-color: #BFA37D;}
+.btn.border-color-secondary-100:hover {border-color: #a58e6d;}
+
+.card-img-overlay {background: linear-gradient(180deg, rgba(57, 57, 57, 0) 0%, #393939 100%);}
+.card-empreendimento {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.progress {
+    background-color: #393939;
+    border-radius: 50px;
+    height: 2rem;
+}
+
+.progress-bar {
+    background-color: #BFA37D;
+    color: #fff;
+    font-weight: 600;
+    overflow: visible;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.nav-pills .nav-link, .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    width: 200px;
+    padding: 18px 0;
+    font-size: 15px;
+    border-radius: 0px;
+}
+
+.nav-pills .nav-link {
+    border: 1px solid #BFA37D;
+    color: #BFA37D;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {background-color: #BFA37D;}
+
+#nav-home {padding: 70px 0;}
+
+.navbar-collapse {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.header-page, .bg-img, .slide-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+.header-page, .slide-home, .side-home {
+    height: 100vh;
+}
+
+.bg-img {height: 450px;}
+
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.social {
+    background-color: #BFA37D;
+    border-radius: 4px;
+    width: 35px !important;
+    padding: 3px 9px;
+}
+
+.social:hover {background-color: #a58e6d;}
+
+.bg-pattern {
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+    background-size: contain !important;
+}
+
+.empreendimento-home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 35px;
+    background-color: #BFA37D !important;
+}
+
+.splide__arrow {display: none;}
+
+.color-primary-200 {color: #272727 !important;}
+.color-primary-100 {color: #393939 !important;}
+.color-secondary-200 {color: #BFA37D !important;}
+.color-secondary-100 {color: #F1ECE7 !important;}
+.color-gray-200 {color: #888888 !important;}
+.color-gray-100 {color: #ABABAB !important;}
+.color-white {color: #fff !important;}
+
+.bg-primary-200 {background-color: #272727 !important;}
+.bg-primary-100 {background-color: #393939 !important;}
+.bg-secondary-200 {background-color: #BFA37D;}
+.bg-secondary-100 {background-color: #F1ECE7;}
+.bg-gray {background-color: #888888;}
+.bg-green {background-color: #00CC69;}
+.bg-transparent {background:  linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(49, 59, 55, 0) 100%);}
+
+.border-color-secondary {border-color: #BFA37D;}
+.border-color-secondary-100 {border-color: #F1ECE7;}
+
+.font-medium{ font-weight: 500;}
+
+.font-70 {font-size: 70px;}
+.font-60 {font-size: 60px;}
+.font-40 {font-size: 40px;}
+.font-35 {font-size: 35px;}
+.font-30 {font-size: 30px;}
+.font-25 {font-size: 25px;}
+.font-23 {font-size: 23px;}
+.font-20 {font-size: 20px;}
+.font-18 {font-size: 18px;}
+.font-16 {font-size: 16px;}
+.font-15 {font-size: 15px;}
+.font-14 {font-size: 14px;}
+
+@media (max-width: 600px){
+    .font-60 {font-size: 42px;}
+    .font-40 {font-size: 32px;}
+    .font-35 {font-size: 24px;}
+    .font-18 {font-size: 16px;}
+    
+    #nav-home {
+        padding: 20px 0;
+    }
+}
